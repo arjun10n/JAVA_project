@@ -1,0 +1,30 @@
+
+
+        //  Member arjun: Path 1 - Ancient Trees 
+        if (choice1 == 1) {
+            System.out.println("\nYou walk through the dense forest. The air grows still... then you hear a growl nearby!");
+            System.out.println("A tiger's eyes glow in the shadows!");
+
+            System.out.println("1. Hide behind a rock 🪨");
+            System.out.println("2. Climb a tree ");
+            System.out.println("3. Try to scare it away with fire ");
+            System.out.print("Choose (1, 2 or 3): ");
+            int choice2 = sc.nextInt();
+
+            if (choice2 == 1) {
+                System.out.println("\nYou press yourself behind the rock. The tiger walks away.");
+                System.out.println("You find an old map.");
+                System.out.println("1. Head toward the mountains ");
+                System.out.println("2. Follow the river trail ");
+                System.out.print("Choose (1 or 2): ");
+                int choice3 = sc.nextInt();
+
+                if (choice3 == 1) {
+                    System.out.println("\nYou find a hermit who helps you escape.");
+                    System.out.println(" YOU SURVIVED AND ESCAPED THE JUNGLE!");
+                } else {
+                    System.out.println("\nYou discover a hidden temple and treasure!");
+                    System.out.println(" YOU FOUND THE TREASURE OF THE JUNGLE!");
+                }
+
+            }
