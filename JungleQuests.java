@@ -13,7 +13,7 @@
 
             if (choice2 == 1) {
                 System.out.println("\nYou press yourself behind the rock. The tiger walks away.");
-                System.out.println("You find an old map.");
+                System.out.println("You find an old map a route to the exit.");
                 System.out.println("1. Head toward the mountains ");
                 System.out.println("2. Follow the river trail ");
                 System.out.print("Choose (1 or 2): ");
@@ -31,5 +31,6 @@
 
  } else if (choice1 == 2) {
             System.out.println("\nYou reach a waterfall.");
+
 
 
