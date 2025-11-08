@@ -1,6 +1,6 @@
 
 
-        //  Member arjun: Path 1 - Ancient Trees 
+        
         if (choice1 == 1) {
             System.out.println("\nYou walk through the dense forest. The air grows still... then you hear a growl nearby!");
             System.out.println("A tiger's eyes glow in the shadows!");
@@ -28,4 +28,5 @@
                 }
 
             }
+
 
