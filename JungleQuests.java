@@ -1,4 +1,4 @@
-
+#arjun scenario 2
 
         
         if (choice1 == 1) {
@@ -53,6 +53,7 @@
  if (choice4 == 1) {
                 System.out.println("\nThe cave collapses.");
                 System.out.println("GAME OVER.");
+
 
 
 
