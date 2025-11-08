@@ -27,7 +27,8 @@
                     System.out.println(" YOU FOUND THE TREASURE OF THE JUNGLE!");
                 }
 
-            }
+            } else if (choice2 == 2) {
+                System.out.println("\nYou climb a tree and spot smoke.")
 
  } else if (choice1 == 2) {
             System.out.println("\nYou reach a waterfall.");
@@ -43,6 +44,7 @@
                 System.out.println("2. Leave it ");
                 System.out.print("Choose (1 or 2): ");
                 int choice4 = sc.nextInt();
+
 
 
 
