@@ -45,6 +45,10 @@
                 System.out.print("Choose (1 or 2): ");
                 int choice4 = sc.nextInt();
 
+ if (choice4 == 1) {
+                System.out.println("\nThe cave collapses.");
+                System.out.println("GAME OVER.");
+
 
 
 
