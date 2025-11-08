@@ -29,4 +29,7 @@
 
             }
 
+ } else if (choice1 == 2) {
+            System.out.println("\nYou reach a waterfall.");
+
 
