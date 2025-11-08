@@ -34,7 +34,7 @@
                 System.out.print("Choose (1 or 2): ");
                 int choice3 = sc.nextInt();
 
-
+#namith scenario 3
  } else if (choice1 == 2) {
             System.out.println("\nYou reach a waterfall.");
             System.out.println("1. Go behind the waterfall ");
@@ -53,6 +53,7 @@
  if (choice4 == 1) {
                 System.out.println("\nThe cave collapses.");
                 System.out.println("GAME OVER.");
+
 
 
 
