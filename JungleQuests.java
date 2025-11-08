@@ -29,6 +29,11 @@
 
             } else if (choice2 == 2) {
                 System.out.println("\nYou climb a tree and spot smoke.")
+                System.out.println("1. Head toward the smoke ");
+                System.out.println("2. Stay and rest ");
+                System.out.print("Choose (1 or 2): ");
+                int choice3 = sc.nextInt();
+
 
  } else if (choice1 == 2) {
             System.out.println("\nYou reach a waterfall.");
@@ -48,6 +53,7 @@
  if (choice4 == 1) {
                 System.out.println("\nThe cave collapses.");
                 System.out.println("GAME OVER.");
+
 
 
 
