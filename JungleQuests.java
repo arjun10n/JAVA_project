@@ -1,17 +1,13 @@
-
 import java.util.Scanner;
-
 public class JungleQuest {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-  
         System.out.println(" Welcome to THE JUNGLE QUEST! ");
         System.out.println("You are Alex, an explorer whose helicopter crashed deep inside the Amazon jungle.");
         System.out.println("You wake up with a torn backpack, a broken compass, and a storm approaching.\n");
         System.out.println("Your mission: Find a way out of the jungle safely — or uncover its hidden secret!\n");
         
-
         System.out.println("You see two paths ahead:");
         System.out.println("1. Take the path with tall, ancient trees ");
         System.out.println("2. Cross the narrow river with sparkling water ");
@@ -143,6 +139,7 @@ public class JungleQuest {
             }
 
 #prakash end
+
 
 
 
