@@ -63,10 +63,16 @@
                 System.out.println("1. Use the raft ");
                 System.out.println("2. Swim ");
                 System.out.print("Choose (1 or 2): ");
+                int choice4 = sc.nextInt();
 
 
-
-
+ if (choice4 == 1) {
+                    System.out.println("\nYou escape using the raft!");
+                    System.out.println("YOU WIN!");
+                } else {
+                    System.out.println("\nSnakes attack you.");
+                    System.out.println("GAME OVER.");
+                }
 
 
 
