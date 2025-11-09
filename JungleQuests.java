@@ -55,6 +55,10 @@
                 System.out.println("GAME OVER.");
          } else {
                 System.out.println("\nA secret exit opens!");
+                System.out.println(" YOU WIN!");
+                }
+
+
 
 
 
