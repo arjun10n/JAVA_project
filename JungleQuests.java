@@ -62,6 +62,25 @@ public class JungleQuest {
                     System.out.println("GAME OVER.");
                 }
 
+                 } else if (choice2 == 3) {
+                System.out.println("\nYou scare the tiger using fire and find a hidden tunnel.");
+                System.out.println("1. Enter the tunnel ");
+                System.out.println("2. Set up camp ");
+                System.out.print("Choose (1 or 2): ");
+                int choice3 = sc.nextInt();
+
+                if (choice3 == 1) {
+                    System.out.println("\nYou discover a glowing crystal chamber.");
+                    System.out.println(" YOU WIN!");
+                } else {
+                    System.out.println("\nStrange spirits find you in your sleep...");
+                    System.out.println("GAME OVER.");
+                }
+            } else {
+                System.out.println("\nInvalid choice! The tiger attacks. ");
+                System.out.println("GAME OVER.");
+            }
+
 
 #namith scenario 3
  } else if (choice1 == 2) {
@@ -124,6 +143,7 @@ public class JungleQuest {
             }
 
 #prakash end
+
 
 
 
