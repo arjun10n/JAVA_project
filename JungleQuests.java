@@ -53,6 +53,10 @@
  if (choice4 == 1) {
                 System.out.println("\nThe cave collapses.");
                 System.out.println("GAME OVER.");
+         } else {
+                System.out.println("\nA secret exit opens!");
+
+
 
 
 
