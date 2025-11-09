@@ -4,6 +4,12 @@ import java.util.Scanner;
 public class JungleQuest {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        
+   // Game Introduction
+        System.out.println(" Welcome to THE JUNGLE QUEST! ");
+        System.out.println("You are Alex, an explorer whose helicopter crashed deep inside the Amazon jungle.");
+        System.out.println("You wake up with a torn backpack, a broken compass, and a storm approaching.\n");
+        System.out.println("Your mission: Find a way out of the jungle safely — or uncover its hidden secret!\n");
 
 #arjun scenario 2
 
@@ -102,6 +108,7 @@ public class JungleQuest {
             }
 
 #prakash end
+
 
 
 
