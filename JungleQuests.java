@@ -56,10 +56,11 @@
          } else {
                 System.out.println("\nA secret exit opens!");
                 System.out.println(" YOU WIN!");
-                }
+              }
 
-          else if (choice3 == 1) {
-                System.out.println("\nYou see a raft in a swamp.")
+         } else if (choice3 == 2) {
+                System.out.println("\nYou see a raft in a swamp.");
+
 
 
 
