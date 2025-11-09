@@ -74,6 +74,15 @@
                     System.out.println("GAME OVER.");
                 }
 
+            } else if (choice3 == 3) {
+                System.out.println("\nYou find a stone tablet.");
+                System.out.println("1. Touch it ");
+                System.out.println("2. Ignore it ");
+                System.out.print("Choose (1 or 2): ");
+                int choice4 = sc.nextInt();
+
+
+
 
 
 
