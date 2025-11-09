@@ -54,6 +54,15 @@ public class JungleQuest {
                 System.out.print("Choose (1 or 2): ");
                 int choice3 = sc.nextInt();
 
+                 if (choice3 == 1) {
+                    System.out.println("\nYou find a research station and call for rescue.");
+                    System.out.println(" YOU WIN!");
+                } else {
+                    System.out.println("\nYou fall from the tree and die.");
+                    System.out.println("GAME OVER.");
+                }
+
+
 #namith scenario 3
  } else if (choice1 == 2) {
             System.out.println("\nYou reach a waterfall.");
@@ -115,6 +124,7 @@ public class JungleQuest {
             }
 
 #prakash end
+
 
 
 
