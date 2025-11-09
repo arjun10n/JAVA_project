@@ -1,3 +1,10 @@
+// ===== Member 1: Setup and First Choice =====
+import java.util.Scanner;
+
+public class JungleQuest {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
 #arjun scenario 2
 
         
@@ -95,6 +102,7 @@
             }
 
 #prakash end
+
 
 
 
