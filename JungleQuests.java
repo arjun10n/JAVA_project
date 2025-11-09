@@ -1,4 +1,4 @@
-// ===== Member 1: Setup and First Choice =====
+
 import java.util.Scanner;
 
 public class JungleQuest {
@@ -102,6 +102,7 @@ public class JungleQuest {
             }
 
 #prakash end
+
 
 
 
