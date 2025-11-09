@@ -60,6 +60,10 @@
 
          } else if (choice3 == 2) {
                 System.out.println("\nYou see a raft in a swamp.");
+                System.out.println("1. Use the raft ");
+                System.out.println("2. Swim ");
+                System.out.print("Choose (1 or 2): ");
+
 
 
 
