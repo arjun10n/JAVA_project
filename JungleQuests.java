@@ -99,6 +99,19 @@ else if (choice1 == 3) {
             }
         }
 
+//arjun
+         if (choice1 == 1) {
+            System.out.println("\nYou walk through the dense forest. The air grows still... then you hear a growl nearby!");
+            System.out.println("A tiger's eyes glow in the shadows!");
+
+            System.out.println("1. Hide behind a rock ");
+            System.out.println("2. Climb a tree ");
+            System.out.println("3. Try to scare it away with fire ");
+            System.out.print("Choose (1, 2 or 3): ");
+            int choice2 = sc.nextInt();
+
+
+       
 //namith
 else if (choice1 == 2) {
             System.out.println("\nYou reach a waterfall.");
@@ -167,6 +180,7 @@ else {
         sc.close();
     }
 }
+
 
 
 
