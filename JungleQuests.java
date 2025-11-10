@@ -77,7 +77,8 @@ public class JungleQuest {
                 System.out.println("GAME OVER.");
             }
 #prakash scenario(bonus)
-
+else if (choice1 == 3) {
+            System.out.println("\nYou enter the glowing cave. Strange symbols light up as you walk.");
 
     
 #namith scenario 3
@@ -141,6 +142,7 @@ public class JungleQuest {
             }
 
 #prakash end
+
 
 
 
