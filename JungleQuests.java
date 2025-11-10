@@ -182,6 +182,15 @@ else {
     }
 }
 
+//End darshan 
+else {
+            System.out.println("\nInvalid choice! The jungle spirits are angry.");
+            System.out.println(" GAME OVER.");
+        }
+
+        sc.close();
+    }
+}
 
 
 
