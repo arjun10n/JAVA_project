@@ -76,8 +76,10 @@ public class JungleQuest {
                 System.out.println("\nInvalid choice! The tiger attacks. ");
                 System.out.println("GAME OVER.");
             }
+#prakash scenario(bonus)
 
 
+    
 #namith scenario 3
  } else if (choice1 == 2) {
             System.out.println("\nYou reach a waterfall.");
@@ -139,6 +141,7 @@ public class JungleQuest {
             }
 
 #prakash end
+
 
 
 
