@@ -79,6 +79,13 @@ public class JungleQuest {
 #prakash scenario(bonus)
 else if (choice1 == 3) {
             System.out.println("\nYou enter the glowing cave. Strange symbols light up as you walk.");
+ System.out.println("You find an ancient stone pedestal with a glowing orb.");
+            System.out.println("1. Touch the orb ");
+            System.out.println("2. Take the orb ");
+            System.out.println("3. Leave the cave immediately ");
+            System.out.print("Choose (1, 2 or 3): ");
+            int bonusChoice = sc.nextInt();
+
 
     
 #namith scenario 3
@@ -142,6 +149,7 @@ else if (choice1 == 3) {
             }
 
 #prakash end
+
 
 
 
