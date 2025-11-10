@@ -14,5 +14,20 @@ if (choice3 == 1) {
                 System.out.print("Choose (1 or 2): ");
                 int choice4 = sc.nextInt();
 
+ if (choice4 == 1) {
+                    System.out.println("\nThe cave collapses.");
+                    System.out.println(" GAME OVER.");
+                } else {
+                    System.out.println("\nA secret exit opens!");
+                    System.out.println(" YOU WIN!");
+                }
+
+            } else if (choice3 == 2) {
+                System.out.println("\nYou see a raft in a swamp.");
+                System.out.println("1. Use the raft ");
+                System.out.println("2. Swim ");
+                System.out.print("Choose (1 or 2): ");
+                int choice4 = sc.nextInt();
+
 
 
