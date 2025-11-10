@@ -1,3 +1,27 @@
+//Darshan
+import java.util.Scanner;
+
+public class JungleQuest {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+                
+// Introduction             
+System.out.println(" Welcome to THE JUNGLE QUEST! ");
+System.out.println("You are Alex, an explorer whose helicopter crashed deep inside the Amazon jungle.");
+System.out.println("You wake up with a torn backpack, a broken compass, and a storm approaching.\n");
+System.out.println("Your mission: Find a way out of the jungle safely — or uncover its hidden secret!\n");
+ // First main choice
+System.out.println("You see four paths ahead:");
+System.out.println("1. Take the path with tall, ancient trees ");
+System.out.println("2. Cross the narrow river with sparkling water ");
+System.out.println("3. Climb a nearby hill to get a better view ");
+System.out.println("4. Enter a dark cave covered in vines 🕳");
+System.out.print("Choose (1, 2, 3, or 4): ");
+int choice1 = sc.nextInt();
+
+
+
+                
 //prakash
 else if (choice1 == 3) {
             System.out.println("\nYou enter the glowing cave. Strange symbols light up as you walk.");
@@ -88,6 +112,7 @@ else {
         sc.close();
     }
 }
+
 
 
 
