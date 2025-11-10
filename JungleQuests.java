@@ -144,7 +144,44 @@ if (choice1 == 1) {
             }
         }
 
+//prakash
+                else if (choice1 == 3) {
+            System.out.println("\nYou enter the glowing cave. Strange symbols light up as you walk.");
+            System.out.println("You find an ancient stone pedestal with a glowing orb.");
+            System.out.println("1. Touch the orb ");
+            System.out.println("2. Take the orb ");
+            System.out.println("3. Leave the cave immediately ");
+            System.out.print("Choose (1, 2 or 3): ");
+            int bonusChoice = sc.nextInt();
 
+            if (bonusChoice == 1) {
+                System.out.println("\nYou are transported to the jungle exit instantly.");
+                System.out.println(" MAGIC PORTAL ESCAPE — YOU WIN!");
+            } else if (bonusChoice == 2) {
+                System.out.println("\nThe cave starts shaking. The orb cracks and explodes.");
+                System.out.println(" GAME OVER.");
+            } else {
+                System.out.println("\nYou escape safely, but the cave seals forever.");
+                System.out.println(" NO TREASURE… BUT YOU SURVIVED!");
+            }
+        }
+
+else if (choice1 == 4) {
+            System.out.println("\nYou climb the hill and see the entire jungle spread out below.");
+            System.out.println("You spot smoke and a small village far away!");
+            System.out.println("1. Head toward the village ");
+            System.out.println("2. Stay to rest and enjoy the view ");
+            System.out.print("Choose (1 or 2): ");
+            int choice2 = sc.nextInt();
+
+            if (choice2 == 1) {
+                System.out.println("\nYou safely reach the village and are rescued!");
+                System.out.println(" YOU WIN!");
+            } else {
+                System.out.println("\nA storm hits the hill... you are struck by lightning.");
+                System.out.println(" GAME OVER.");
+            }
+        }
         
 
 
@@ -157,6 +194,7 @@ else {
         sc.close();
     }
 }
+
 
 
 
