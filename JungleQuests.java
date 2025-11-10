@@ -71,116 +71,7 @@ if (choice2 == 1) {
 
 
         
-//prakash
-else if (choice1 == 3) {
-            System.out.println("\nYou enter the glowing cave. Strange symbols light up as you walk.");
-            System.out.println("You find an ancient stone pedestal with a glowing orb.");
-            System.out.println("1. Touch the orb ");
-            System.out.println("2. Take the orb ");
-            System.out.println("3. Leave the cave immediately ");
-            System.out.print("Choose (1, 2 or 3): ");
-            int bonusChoice = sc.nextInt();
 
-            if (bonusChoice == 1) {
-                System.out.println("\nYou are transported to the jungle exit instantly.");
-                System.out.println(" MAGIC PORTAL ESCAPE — YOU WIN!");
-            } else if (bonusChoice == 2) {
-                System.out.println("\nThe cave starts shaking. The orb cracks and explodes.");
-                System.out.println(" GAME OVER.");
-            } else {
-                System.out.println("\nYou escape safely, but the cave seals forever.");
-                System.out.println(" NO TREASURE… BUT YOU SURVIVED!");
-            }
-        }
-
-    if (choice3 == 1) {
-                    System.out.println("\nYou find a hermit who helps you escape.");
-                    System.out.println(" YOU SURVIVED AND ESCAPED THE JUNGLE!");
-                } else {
-                    System.out.println("\nYou discover a hidden temple and treasure!");
-                    System.out.println(" YOU FOUND THE TREASURE OF THE JUNGLE!");
-                }
-
-            } else if (choice2 == 2) {
-                System.out.println("\nYou climb a tree and spot smoke.");
-                System.out.println("1. Head toward the smoke ");
-                System.out.println("2. Stay and rest ");
-                System.out.print("Choose (1 or 2): ");
-                int choice3 = sc.nextInt();
-
-
-
-         
-
-       
-//namith
-else if (choice1 == 2) {
-            System.out.println("\nYou reach a waterfall.");
-            System.out.println("1. Go behind the waterfall ");
-            System.out.println("2. Follow the river downstream ");
-            System.out.println("3. Climb the cliff ");
-            System.out.print("Choose (1, 2 or 3): ");
-            int choice3 = sc.nextInt();
-
-if (choice3 == 1) {
-                System.out.println("\nYou find a cave with treasure.");
-                System.out.println("1. Take the treasure ");
-                System.out.println("2. Leave it ");
-                System.out.print("Choose (1 or 2): ");
-                int choice4 = sc.nextInt();
-
- if (choice4 == 1) {
-                    System.out.println("\nThe cave collapses.");
-                    System.out.println(" GAME OVER.");
-                } else {
-                    System.out.println("\nA secret exit opens!");
-                    System.out.println(" YOU WIN!");
-                }
-
-            } else if (choice3 == 2) {
-                System.out.println("\nYou see a raft in a swamp.");
-                System.out.println("1. Use the raft ");
-                System.out.println("2. Swim ");
-                System.out.print("Choose (1 or 2): ");
-                int choice4 = sc.nextInt();
-
-if (choice4 == 1) {
-                    System.out.println("\nYou escape using the raft!");
-                    System.out.println(" YOU WIN!");
-                } else {
-                    System.out.println("\nSnakes attack you.");
-                    System.out.println(" GAME OVER.");
-                }
-
-            } else if (choice3 == 3) {
-                System.out.println("\nYou find a stone tablet.");
-                System.out.println("1. Touch it ");
-                System.out.println("2. Ignore it ");
-                System.out.print("Choose (1 or 2): ");
-                int choice4 = sc.nextInt();
-
- if (choice4 == 1) {
-                    System.out.println("\nYou become the guardian of the jungle.");
-                    System.out.println(" YOU WIN!");
-                } else {
-                    System.out.println("\nThe ground collapses. You fall.");
-                    System.out.println(" GAME OVER.");
-                }
-
-            } else {
-                System.out.println("\nInvalid choice!");
-                System.out.println(" GAME OVER.");
-            }
-        }
-
-else {
-            System.out.println("\nInvalid choice! The jungle spirits are angry.");
-            System.out.println(" GAME OVER.");
-        }
-
-        sc.close();
-    }
-}
 
 //End darshan 
 else {
@@ -191,6 +82,7 @@ else {
         sc.close();
     }
 }
+
 
 
 
