@@ -85,7 +85,17 @@ else if (choice1 == 3) {
             System.out.println("3. Leave the cave immediately ");
             System.out.print("Choose (1, 2 or 3): ");
             int bonusChoice = sc.nextInt();
-
+ if (bonusChoice == 1) {
+                System.out.println("\nYou are transported to the jungle exit instantly.");
+                System.out.println(" MAGIC PORTAL ESCAPE — YOU WIN!");
+            } else if (bonusChoice == 2) {
+                System.out.println("\nThe cave starts shaking. The orb cracks and explodes.");
+                System.out.println("GAME OVER.");
+            } else {
+                System.out.println("\nYou escape safely, but the cave seals forever.");
+                System.out.println(" NO TREASURE… BUT YOU SURVIVED!");
+            }
+        }
 
     
 #namith scenario 3
@@ -149,6 +159,7 @@ else if (choice1 == 3) {
             }
 
 #prakash end
+
 
 
 
