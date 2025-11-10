@@ -36,12 +36,14 @@ public class JungleQuests {
                 if (choice3 == 1) {
                     System.out.println("\nYou find a hermit who helps you escape.");
                     System.out.println(" YOU SURVIVED AND ESCAPED THE JUNGLE!");
-                } else {
+                }
+                 else {
                     System.out.println("\nYou discover a hidden temple and treasure!");
                     System.out.println(" YOU FOUND THE TREASURE OF THE JUNGLE!");
                 }
+            }
 
-            } else if (choice2 == 2) {
+             else if (choice2 == 2) {
                 System.out.println("\nYou climb a tree and spot smoke.");
                 System.out.println("1. Head toward the smoke ");
                 System.out.println("2. Stay and rest ");
@@ -51,12 +53,14 @@ public class JungleQuests {
                  if (choice3 == 1) {
                     System.out.println("\nYou find a research station and call for rescue.");
                     System.out.println(" YOU WIN!");
-                } else {
+                 }
+                 else {
                     System.out.println("\nYou fall from the tree and die.");
                     System.out.println("GAME OVER.");
                 }
+            }
 
-                 } else if (choice2 == 3) {
+                  else if (choice2 == 3) {
                 System.out.println("\nYou scare the tiger using fire and find a hidden tunnel.");
                 System.out.println("1. Enter the tunnel ");
                 System.out.println("2. Set up camp ");
@@ -65,17 +69,16 @@ public class JungleQuests {
 
                 if (choice3 == 1) {
                     System.out.println("\nYou discover a glowing crystal chamber.");
-                    System.out.println(" YOU WIN!");
-                } else {
+                    System.out.println(" YOU WIN!");}
+                 else {
                     System.out.println("\nStrange spirits find you in your sleep...");
                     System.out.println("GAME OVER.");
-                }
-            } else {
+                }}
+             else {
                 System.out.println("\nInvalid choice! The tiger attacks. ");
                 System.out.println("GAME OVER.");
             }
-
-            
+           
 else if (choice1 == 3) {
             System.out.println("\nYou enter the glowing cave. Strange symbols light up as you walk.");
  System.out.println("You find an ancient stone pedestal with a glowing orb.");
@@ -86,17 +89,18 @@ else if (choice1 == 3) {
             int bonusChoice = sc.nextInt();
  if (bonusChoice == 1) {
                 System.out.println("\nYou are transported to the jungle exit instantly.");
-                System.out.println(" MAGIC PORTAL ESCAPE — YOU WIN!");
-            } else if (bonusChoice == 2) {
+                System.out.println(" MAGIC PORTAL ESCAPE — YOU WIN!");}
+             else if (bonusChoice == 2) {
                 System.out.println("\nThe cave starts shaking. The orb cracks and explodes.");
-                System.out.println("GAME OVER.");
-            } else {
+                System.out.println("GAME OVER.");}
+             else {
                 System.out.println("\nYou escape safely, but the cave seals forever.");
                 System.out.println(" NO TREASURE… BUT YOU SURVIVED!");
             }
 }
-        
-    } else if (choice1 == 2) {
+    }
+    
+ else if (choice1 == 2) {
             System.out.println("\nYou reach a waterfall.");
             System.out.println("1. Go behind the waterfall ");
             System.out.println("2. Follow the river downstream ");
@@ -118,8 +122,8 @@ else if (choice1 == 3) {
                 System.out.println("\nA secret exit opens!");
                 System.out.println(" YOU WIN!");
               }
-
-         } else if (choice3 == 2) {
+ }
+          else if (choice3 == 2) {
                 System.out.println("\nYou see a raft in a swamp.");
                 System.out.println("1. Use the raft ");
                 System.out.println("2. Swim ");
@@ -133,8 +137,8 @@ else if (choice1 == 3) {
                     System.out.println("\nSnakes attack you.");
                     System.out.println("GAME OVER.");
                 }
-
-            } else if (choice3 == 3) {
+          }
+             else if (choice3 == 3) {
                 System.out.println("\nYou find a stone tablet.");
                 System.out.println("1. Touch it ");
                 System.out.println("2. Ignore it ");
@@ -148,8 +152,8 @@ else if (choice1 == 3) {
                     System.out.println("\nThe ground collapses. You fall.");
                     System.out.println("GAME OVER.");
                 }
-
-            } else {
+             }
+             else {
                 System.out.println("\nInvalid choice! ");
                 System.out.println("GAME OVER.");
             }
@@ -163,6 +167,7 @@ else {
  sc.close();
     }
 }
+
 
 
 
