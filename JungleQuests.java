@@ -44,5 +44,27 @@ if (choice4 == 1) {
                 System.out.print("Choose (1 or 2): ");
                 int choice4 = sc.nextInt();
 
+ if (choice4 == 1) {
+                    System.out.println("\nYou become the guardian of the jungle.");
+                    System.out.println(" YOU WIN!");
+                } else {
+                    System.out.println("\nThe ground collapses. You fall.");
+                    System.out.println(" GAME OVER.");
+                }
+
+            } else {
+                System.out.println("\nInvalid choice!");
+                System.out.println(" GAME OVER.");
+            }
+        }
+
+else {
+            System.out.println("\nInvalid choice! The jungle spirits are angry.");
+            System.out.println(" GAME OVER.");
+        }
+
+        sc.close();
+    }
+}
 
 
