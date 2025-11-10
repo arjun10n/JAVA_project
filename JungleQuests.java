@@ -15,8 +15,6 @@ public class JungleQuests {
         System.out.print("Choose (1, 2 or 3): ");
         int choice1 = sc.nextInt();
 
-#arjun scenario 2
-
         
         if (choice1 == 1) {
             System.out.println("\nYou walk through the dense forest. The air grows still... then you hear a growl nearby!");
@@ -77,7 +75,8 @@ public class JungleQuests {
                 System.out.println("\nInvalid choice! The tiger attacks. ");
                 System.out.println("GAME OVER.");
             }
-#prakash scenario(bonus)
+
+            
 else if (choice1 == 3) {
             System.out.println("\nYou enter the glowing cave. Strange symbols light up as you walk.");
  System.out.println("You find an ancient stone pedestal with a glowing orb.");
@@ -98,8 +97,8 @@ else if (choice1 == 3) {
             }
         }
 
-    
-#namith scenario 3
+
+        
  } else if (choice1 == 2) {
             System.out.println("\nYou reach a waterfall.");
             System.out.println("1. Go behind the waterfall ");
@@ -159,8 +158,7 @@ else if (choice1 == 3) {
                 System.out.println("GAME OVER.");
             }
 
-#prakash end
-  // ===== Member 4: Invalid Inputs and Cleanup =====
+
         } 
 else {
  System.out.println("\nInvalid choice! The jungle spirits are angry. ");
@@ -169,6 +167,7 @@ else {
  sc.close();
     }
 }
+
 
 
 
