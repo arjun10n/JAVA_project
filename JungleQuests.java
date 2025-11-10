@@ -64,6 +64,22 @@ else if (choice1 == 3) {
             }
         }
 
+    if (choice3 == 1) {
+                    System.out.println("\nYou find a hermit who helps you escape.");
+                    System.out.println(" YOU SURVIVED AND ESCAPED THE JUNGLE!");
+                } else {
+                    System.out.println("\nYou discover a hidden temple and treasure!");
+                    System.out.println(" YOU FOUND THE TREASURE OF THE JUNGLE!");
+                }
+
+            } else if (choice2 == 2) {
+                System.out.println("\nYou climb a tree and spot smoke.");
+                System.out.println("1. Head toward the smoke ");
+                System.out.println("2. Stay and rest ");
+                System.out.print("Choose (1 or 2): ");
+                int choice3 = sc.nextInt();
+
+
 
          
 
@@ -136,6 +152,7 @@ else {
         sc.close();
     }
 }
+
 
 
 
