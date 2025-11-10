@@ -22,7 +22,8 @@ public class JungleQuests {
         int choice1 = sc.nextInt();
 
 //arjun
-        if (choice1 == 1) {
+
+if (choice1 == 1) {
             System.out.println("\nYou walk through the dense forest. The air grows still... then you hear a growl nearby!");
             System.out.println("A tiger’s eyes glow in the shadows!");
             System.out.println("1. Hide behind a rock ");
@@ -30,7 +31,8 @@ public class JungleQuests {
             System.out.println("3. Try to scare it away with fire ");
             System.out.print("Choose (1, 2 or 3): ");
             int choice2 = sc.nextInt();
-if (choice2 == 1) {
+
+            if (choice2 == 1) {
                 System.out.println("\nYou press yourself behind the rock. The tiger walks away.");
                 System.out.println("You find an old map showing a route to the exit.");
                 System.out.println("1. Head toward the mountains ");
@@ -38,7 +40,7 @@ if (choice2 == 1) {
                 System.out.print("Choose (1 or 2): ");
                 int choice3 = sc.nextInt();
 
-    if (choice3 == 1) {
+                if (choice3 == 1) {
                     System.out.println("\nYou find a hermit who helps you escape.");
                     System.out.println(" YOU SURVIVED AND ESCAPED THE JUNGLE!");
                 } else {
@@ -52,6 +54,14 @@ if (choice2 == 1) {
                 System.out.println("2. Stay and rest ");
                 System.out.print("Choose (1 or 2): ");
                 int choice3 = sc.nextInt();
+
+                if (choice3 == 1) {
+                    System.out.println("\nYou find a research station and call for rescue.");
+                    System.out.println(" YOU WIN!");
+                } else {
+                    System.out.println("\nYou fall from the tree and die.");
+                    System.out.println(" GAME OVER.");
+                }
 
             } else if (choice2 == 3) {
                 System.out.println("\nYou scare the tiger using fire and find a hidden tunnel.");
@@ -71,9 +81,8 @@ if (choice2 == 1) {
             } else {
                 System.out.println("\nInvalid choice! The tiger attacks.");
                 System.out.println(" GAME OVER.");
-            }
+            }
         }
-
 //namith
 
             else if (choice1 == 2) {
@@ -148,6 +157,7 @@ else {
         sc.close();
     }
 }
+
 
 
 
