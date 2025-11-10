@@ -65,7 +65,7 @@ if (choice2 == 1) {
                 System.out.println("\nInvalid choice! The tiger attacks.");
                 System.out.println(" GAME OVER.");
             }
-
+        }
 
 
 
@@ -181,6 +181,7 @@ else {
         sc.close();
     }
 }
+
 
 
 
