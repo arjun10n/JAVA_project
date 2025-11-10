@@ -15,7 +15,6 @@ public class JungleQuests {
         System.out.print("Choose (1, 2 or 3): ");
         int choice1 = sc.nextInt();
 
-        
         if (choice1 == 1) {
             System.out.println("\nYou walk through the dense forest. The air grows still... then you hear a growl nearby!");
             System.out.println("A tiger's eyes glow in the shadows!");
@@ -95,11 +94,9 @@ else if (choice1 == 3) {
                 System.out.println("\nYou escape safely, but the cave seals forever.");
                 System.out.println(" NO TREASURE… BUT YOU SURVIVED!");
             }
-        }
-
-
+}
         
- } else if (choice1 == 2) {
+    } else if (choice1 == 2) {
             System.out.println("\nYou reach a waterfall.");
             System.out.println("1. Go behind the waterfall ");
             System.out.println("2. Follow the river downstream ");
@@ -128,7 +125,6 @@ else if (choice1 == 3) {
                 System.out.println("2. Swim ");
                 System.out.print("Choose (1 or 2): ");
                 int choice4 = sc.nextInt();
-
 
  if (choice4 == 1) {
                     System.out.println("\nYou escape using the raft!");
@@ -161,16 +157,12 @@ else if (choice1 == 3) {
 
         } 
 else {
- System.out.println("\nInvalid choice! The jungle spirits are angry. ");
+    System.out.println("\nInvalid choice! The jungle spirits are angry. ");
             System.out.println("GAME OVER.");
         }
  sc.close();
     }
 }
-
-
-
-
 
 
 
