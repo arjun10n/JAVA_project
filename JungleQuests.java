@@ -163,6 +163,10 @@ else if (choice1 == 3) {
   // ===== Member 4: Invalid Inputs and Cleanup =====
         } 
 else {
+ System.out.println("\nInvalid choice! The jungle spirits are angry. ");
+            System.out.println("GAME OVER.");
+        }
+
 
 
 
