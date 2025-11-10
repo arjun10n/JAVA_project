@@ -11,7 +11,8 @@ public class JungleQuest {
         System.out.println("You see two paths ahead:");
         System.out.println("1. Take the path with tall, ancient trees ");
         System.out.println("2. Cross the narrow river with sparkling water ");
-        System.out.print("Choose (1 or 2): ");
+        System.out.println("3. Explore a mysterious glowing cave ");
+        System.out.print("Choose (1, 2 or 3): ");
         int choice1 = sc.nextInt();
 
 #arjun scenario 2
@@ -159,6 +160,7 @@ else if (choice1 == 3) {
             }
 
 #prakash end
+
 
 
 
