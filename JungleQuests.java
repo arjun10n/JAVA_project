@@ -29,5 +29,20 @@ if (choice3 == 1) {
                 System.out.print("Choose (1 or 2): ");
                 int choice4 = sc.nextInt();
 
+if (choice4 == 1) {
+                    System.out.println("\nYou escape using the raft!");
+                    System.out.println(" YOU WIN!");
+                } else {
+                    System.out.println("\nSnakes attack you.");
+                    System.out.println(" GAME OVER.");
+                }
+
+            } else if (choice3 == 3) {
+                System.out.println("\nYou find a stone tablet.");
+                System.out.println("1. Touch it ");
+                System.out.println("2. Ignore it ");
+                System.out.print("Choose (1 or 2): ");
+                int choice4 = sc.nextInt();
+
 
 
