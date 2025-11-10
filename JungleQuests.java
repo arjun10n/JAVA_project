@@ -30,6 +30,13 @@ public class JungleQuests {
             System.out.println("3. Try to scare it away with fire ");
             System.out.print("Choose (1, 2 or 3): ");
             int choice2 = sc.nextInt();
+if (choice2 == 1) {
+                System.out.println("\nYou press yourself behind the rock. The tiger walks away.");
+                System.out.println("You find an old map showing a route to the exit.");
+                System.out.println("1. Head toward the mountains ");
+                System.out.println("2. Follow the river trail ");
+                System.out.print("Choose (1 or 2): ");
+                int choice3 = sc.nextInt();
 
 
 
@@ -129,6 +136,7 @@ else {
         sc.close();
     }
 }
+
 
 
 
