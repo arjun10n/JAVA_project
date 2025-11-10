@@ -43,7 +43,7 @@ public class JungleQuests {
                 }
 
             } else if (choice2 == 2) {
-                System.out.println("\nYou climb a tree and spot smoke.")
+                System.out.println("\nYou climb a tree and spot smoke.");
                 System.out.println("1. Head toward the smoke ");
                 System.out.println("2. Stay and rest ");
                 System.out.print("Choose (1 or 2): ");
@@ -167,6 +167,7 @@ else {
  sc.close();
     }
 }
+
 
 
 
